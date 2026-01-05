@@ -2182,10 +2182,6 @@ body {
 
                     .what--card--2 {
                         gap: 10px;
-
-
-                        img {}
-
                         .what--img {
                             gap: 0;
 
@@ -2407,7 +2403,6 @@ body {
         }
 
         footer {
-            padding: 50px 16px;
             gap: 50px;
 
             .foo--1 {
@@ -2427,12 +2422,6 @@ body {
                     .sas {
                         max-width: 900px;
                         width: 100%;
-
-                        img:nth-of-type(1) {}
-
-                        img:nth-of-type(2) {}
-
-                        p {}
 
                     }
                 }
@@ -2532,33 +2521,3 @@ body {
     }
 }
 
-@media (max-width:1150px) {
-    body {
-        .featured {
-            .featured--2 {
-                .featured--card:nth-of-type(1) {}
-            }
-        }
-
-        .what {
-            .what--2 {
-                .what--card:nth-of-type(1) {}
-            }
-        }
-
-        .frequently {
-            .frequently--2 {
-                .frequently--card:nth-of-type(1) {}
-            }
-        }
-
-        footer {
-            .foo--1 {}
-
-            .foo--2 {
-
-                .foo--2--a {}
-            }
-        }
-    }
-}
